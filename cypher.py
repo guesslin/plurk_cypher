@@ -20,8 +20,10 @@ def dec(s):
     ''' 在解密之前要把密文開頭代表碼拿掉
     >>> print dec(enc('這是測試密文'))
     這是測試密文
+    >>> print dec(enc('這是測試密文瀟笑的密文'))
+    這是測試密文瀟笑的密文
     '''
-    return s.split(PREFIX, 1)[1]
+    return ''.join(s.split(PREFIX, 1)[1:])
 
 
 def timeToChinese(t):
