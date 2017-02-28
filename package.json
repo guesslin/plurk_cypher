@@ -1,0 +1,26 @@
+{
+  "name": "plurk_cypher",
+  "version": "1.0.0",
+  "description": "plurk cypher",
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack.js -p",
+    "lint": "./node_modules/tslint/bin/tslint -c tslint.json --project tsconfig.json"
+  },
+  "keywords": [
+    "cypher",
+    "plurk"
+  ],
+  "author": "Guesslin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guesslin/plurk_cypher/issues"
+  },
+  "homepage": "https://github.com/guesslin/plurk_cypher#readme",
+  "devDependencies": {
+    "source-map-loader": "^0.1.6",
+    "ts-loader": "^2.0.1",
+    "tslint": "^4.5.0",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1"
+  }
+}

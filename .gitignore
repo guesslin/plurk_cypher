@@ -87,3 +87,10 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# JS/TypeScript setting
+node_modules*
+dist*
+
+# npm debug-log
+npm-debug.log
